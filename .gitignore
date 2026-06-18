@@ -1,0 +1,23 @@
+# R
+.Rhistory
+.RData
+.Rproj.user/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Stan (cmdstanr compiled artifacts)
+scripts/stan/dynamic_poisson
+scripts/stan/*.hpp
+*.exe
+
+# Data (keep folder structure, ignore the actual files)
+data/raw/*
+data/processed/*
+!data/**/.gitkeep
+
+# macOS
+.DS_Store
